@@ -26,5 +26,8 @@ module TaskManagerApi
     # Middleware like session, flash, cookies can be added back manually.
     # Skip views, helpers and assets when generating a new resource.
     config.api_only = true
+    config.time_zone = 'Brasilia'
+    config.i18n.default_locale = "pt-BR"
+    config.encoding = "utf-8"
   end
 end
